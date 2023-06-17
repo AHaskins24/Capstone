@@ -19,6 +19,9 @@ The following datasets will be used for this project:
 
 Please ensure that the data files are located in the following directory: "C:\Users\ahask\Documents\DA8\Projects\Capstone\Data\"
 
+Presentation link to Canva:
+https://www.canva.com/design/DAFlcF16-Dg/4aFJmUIKCCGI9FArNbyazA/view?utm_content=DAFlcF16-Dg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 Timeline
 
 - **Data collection:** Obtain the necessary datasets on consumer spending patterns, preferably with a breakdown by product categories or industries. (Deadline: 5/15/23)
