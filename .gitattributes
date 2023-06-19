@@ -1,2 +1,0 @@
-Data/COVID-19[[:space:]]Case[[:space:]]Surveillance[[:space:]]Public[[:space:]]Use[[:space:]]Data/*.json filter=lfs diff=lfs merge=lfs -text
-Data/COVID-19[[:space:]]Case[[:space:]]Surveillance[[:space:]]Public[[:space:]]Use[[:space:]]Data/*.csv filter=lfs diff=lfs merge=lfs -text

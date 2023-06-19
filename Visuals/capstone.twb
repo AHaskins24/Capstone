@@ -1,0 +1,1608 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ecommerce4541 (Multiple Connections)' inline='true' name='federated.019c9lx1ssxahz154zch30upsj8n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ecommerce4541' name='excel-direct.0ib8j5x1dkshv912ytfrr0ngcf9t'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/ahask/Documents/DA8/Capstone/Capstone/Data/ecommerce4541.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='purcha' name='excel-direct.0oout580wy66ko1192yb2122ax85'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/ahask/Documents/DA8/Capstone/Capstone/Data/Dashboard data/purcha.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ib8j5x1dkshv912ytfrr0ngcf9t' name='ecommerce4541' table='[ecommerce4541$]' type='table'>
+          <columns gridOrigin='A1:AS32:no:A1:AS32:1' header='no' lost='0' outcome='1' processed='676'>
+            <column datatype='string' name='(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju' ordinal='0' />
+            <column datatype='integer' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+            <column datatype='integer' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+            <column datatype='integer' name='F20' ordinal='19' />
+            <column datatype='integer' name='F21' ordinal='20' />
+            <column datatype='integer' name='F22' ordinal='21' />
+            <column datatype='integer' name='F23' ordinal='22' />
+            <column datatype='integer' name='F24' ordinal='23' />
+            <column datatype='integer' name='F25' ordinal='24' />
+            <column datatype='integer' name='F26' ordinal='25' />
+            <column datatype='integer' name='F27' ordinal='26' />
+            <column datatype='integer' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+            <column datatype='integer' name='F30' ordinal='29' />
+            <column datatype='integer' name='F31' ordinal='30' />
+            <column datatype='integer' name='F32' ordinal='31' />
+            <column datatype='integer' name='F33' ordinal='32' />
+            <column datatype='integer' name='F34' ordinal='33' />
+            <column datatype='integer' name='F35' ordinal='34' />
+            <column datatype='integer' name='F36' ordinal='35' />
+            <column datatype='integer' name='F37' ordinal='36' />
+            <column datatype='integer' name='F38' ordinal='37' />
+            <column datatype='integer' name='F39' ordinal='38' />
+            <column datatype='integer' name='F40' ordinal='39' />
+            <column datatype='integer' name='F41' ordinal='40' />
+            <column datatype='integer' name='F42' ordinal='41' />
+            <column datatype='integer' name='F43' ordinal='42' />
+            <column datatype='integer' name='F44' ordinal='43' />
+            <column datatype='integer' name='F45' ordinal='44' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ib8j5x1dkshv912ytfrr0ngcf9t' name='ecommerce4541' table='[ecommerce4541$]' type='table'>
+          <columns gridOrigin='A1:AS32:no:A1:AS32:1' header='no' lost='0' outcome='1' processed='676'>
+            <column datatype='string' name='(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju' ordinal='0' />
+            <column datatype='integer' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+            <column datatype='integer' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+            <column datatype='integer' name='F20' ordinal='19' />
+            <column datatype='integer' name='F21' ordinal='20' />
+            <column datatype='integer' name='F22' ordinal='21' />
+            <column datatype='integer' name='F23' ordinal='22' />
+            <column datatype='integer' name='F24' ordinal='23' />
+            <column datatype='integer' name='F25' ordinal='24' />
+            <column datatype='integer' name='F26' ordinal='25' />
+            <column datatype='integer' name='F27' ordinal='26' />
+            <column datatype='integer' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+            <column datatype='integer' name='F30' ordinal='29' />
+            <column datatype='integer' name='F31' ordinal='30' />
+            <column datatype='integer' name='F32' ordinal='31' />
+            <column datatype='integer' name='F33' ordinal='32' />
+            <column datatype='integer' name='F34' ordinal='33' />
+            <column datatype='integer' name='F35' ordinal='34' />
+            <column datatype='integer' name='F36' ordinal='35' />
+            <column datatype='integer' name='F37' ordinal='36' />
+            <column datatype='integer' name='F38' ordinal='37' />
+            <column datatype='integer' name='F39' ordinal='38' />
+            <column datatype='integer' name='F40' ordinal='39' />
+            <column datatype='integer' name='F41' ordinal='40' />
+            <column datatype='integer' name='F42' ordinal='41' />
+            <column datatype='integer' name='F43' ordinal='42' />
+            <column datatype='integer' name='F44' ordinal='43' />
+            <column datatype='integer' name='F45' ordinal='44' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AS32:no:A1:AS32:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>676</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F39</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F39]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F39</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F40</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F40]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F40</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F41</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F41]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F41</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F42</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F42]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F42</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F43</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F43]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F43</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F44</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F44]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F44</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F45</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F45]</local-name>
+            <parent-name>[ecommerce4541]</parent-name>
+            <remote-alias>F45</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='ecommerce4541' datatype='table' name='[__tableau_internal_object_id__].[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/ahask/OneDrive/Documents/My Tableau Repository/Workbooks/ecommerce4541 (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/19/2023 08:50:28 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='ecommerce4541 (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='18' timestamp-start='2023-06-19 20:50:27.430' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F4</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F5</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F19</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F19]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F19</remote-alias>
+              <ordinal>18</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F20</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F20]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F20</remote-alias>
+              <ordinal>19</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F21</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F21]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F21</remote-alias>
+              <ordinal>20</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F22</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F22]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F22</remote-alias>
+              <ordinal>21</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F23</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F23]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F23</remote-alias>
+              <ordinal>22</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F24</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F24</remote-alias>
+              <ordinal>23</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F25</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F25</remote-alias>
+              <ordinal>24</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F26</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F26]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F26</remote-alias>
+              <ordinal>25</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F27</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F27]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F27</remote-alias>
+              <ordinal>26</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F28</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F28]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F28</remote-alias>
+              <ordinal>27</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F29</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F29]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F29</remote-alias>
+              <ordinal>28</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F30</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F30]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F30</remote-alias>
+              <ordinal>29</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F31</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F31]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F31</remote-alias>
+              <ordinal>30</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F32</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F32]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F32</remote-alias>
+              <ordinal>31</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F33</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F33]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F33</remote-alias>
+              <ordinal>32</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F34</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F34]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F34</remote-alias>
+              <ordinal>33</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F35</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F35]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F35</remote-alias>
+              <ordinal>34</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F36</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F36]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F36</remote-alias>
+              <ordinal>35</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F37</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F37]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F37</remote-alias>
+              <ordinal>36</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F38</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F38]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F38</remote-alias>
+              <ordinal>37</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F39</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F39]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F39</remote-alias>
+              <ordinal>38</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F40</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F40]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F40</remote-alias>
+              <ordinal>39</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F41</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F41]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F41</remote-alias>
+              <ordinal>40</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F42</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F42]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F42</remote-alias>
+              <ordinal>41</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F43</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F43]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F43</remote-alias>
+              <ordinal>42</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F44</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F44]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F44</remote-alias>
+              <ordinal>43</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F45</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F45]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F45</remote-alias>
+              <ordinal>44</ordinal>
+              <family>ecommerce4541</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ecommerce4541' id='ecommerce4541_DFC31B7FB4B54946A9E0DC5BFCBD87C7'>
+            <properties context=''>
+              <relation connection='excel-direct.0ib8j5x1dkshv912ytfrr0ngcf9t' name='ecommerce4541' table='[ecommerce4541$]' type='table'>
+                <columns gridOrigin='A1:AS32:no:A1:AS32:1' header='no' lost='0' outcome='1' processed='676'>
+                  <column datatype='string' name='(Estimates are shown in millions of dollars and are based on data from the Annual Retail Trade Survey. Estimates have been adju' ordinal='0' />
+                  <column datatype='integer' name='F2' ordinal='1' />
+                  <column datatype='integer' name='F3' ordinal='2' />
+                  <column datatype='integer' name='F4' ordinal='3' />
+                  <column datatype='integer' name='F5' ordinal='4' />
+                  <column datatype='integer' name='F6' ordinal='5' />
+                  <column datatype='integer' name='F7' ordinal='6' />
+                  <column datatype='integer' name='F8' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='integer' name='F10' ordinal='9' />
+                  <column datatype='integer' name='F11' ordinal='10' />
+                  <column datatype='integer' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='integer' name='F17' ordinal='16' />
+                  <column datatype='integer' name='F18' ordinal='17' />
+                  <column datatype='integer' name='F19' ordinal='18' />
+                  <column datatype='integer' name='F20' ordinal='19' />
+                  <column datatype='integer' name='F21' ordinal='20' />
+                  <column datatype='integer' name='F22' ordinal='21' />
+                  <column datatype='integer' name='F23' ordinal='22' />
+                  <column datatype='integer' name='F24' ordinal='23' />
+                  <column datatype='integer' name='F25' ordinal='24' />
+                  <column datatype='integer' name='F26' ordinal='25' />
+                  <column datatype='integer' name='F27' ordinal='26' />
+                  <column datatype='integer' name='F28' ordinal='27' />
+                  <column datatype='integer' name='F29' ordinal='28' />
+                  <column datatype='integer' name='F30' ordinal='29' />
+                  <column datatype='integer' name='F31' ordinal='30' />
+                  <column datatype='integer' name='F32' ordinal='31' />
+                  <column datatype='integer' name='F33' ordinal='32' />
+                  <column datatype='integer' name='F34' ordinal='33' />
+                  <column datatype='integer' name='F35' ordinal='34' />
+                  <column datatype='integer' name='F36' ordinal='35' />
+                  <column datatype='integer' name='F37' ordinal='36' />
+                  <column datatype='integer' name='F38' ordinal='37' />
+                  <column datatype='integer' name='F39' ordinal='38' />
+                  <column datatype='integer' name='F40' ordinal='39' />
+                  <column datatype='integer' name='F41' ordinal='40' />
+                  <column datatype='integer' name='F42' ordinal='41' />
+                  <column datatype='integer' name='F43' ordinal='42' />
+                  <column datatype='integer' name='F44' ordinal='43' />
+                  <column datatype='integer' name='F45' ordinal='44' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{958A4B16-28F3-4BF7-B5E7-9F34D596AD7E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C9E3522E-1DE0-4814-B188-43579A38F81C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='288' name='Sheet 1' width='288'>
+      iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADoUlEQVR4nO3UMQHAMADDsHX8OacwfFRC4Mtn2z6AwF8HAO8yICBjQEDGgICMAQEZAwIy
+      BgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQM
+      CMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQ
+      kDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAg
+      Y0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDG
+      gICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwB
+      ARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMC
+      MgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRk
+      DAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgY
+      EJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEg
+      IGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BA
+      xoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICM
+      AQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkD
+      AjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYE
+      ZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAxICBjQEDGgICMAQEZAwIyBgRkDAjI
+      GBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNAQMaAgIwBARkDAjIGBGQMCMgYEJAx
+      ICBjQEDGgICMAQEZAwIyBgRkDAjIGBCQMSAgY0BAxoCAjAEBGQMCMgYEZAwIyBgQkDEgIGNA
+      QMaAgIwBARkDAjIGBGQuC2AGPGKy4EIAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
