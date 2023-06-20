@@ -2,7 +2,7 @@
 
 Objective
 
-This data analytics capstone proposal aims to investigate the relationship between stress and consumer behavior by analyzing data on mental health, pulse spending, and FEMA records related to COVID-!(. The study recognizes that stress can significantly impact individuals' decision-making processes and purchasing habits, particularly in the aftermath of COVID-19. Understanding this influence is crucial for businesses seeking to tailor their marketing strategies and product offerings effectively in disaster-prone regions. The project will leverage various data analysis tools, including SQL, Python, Power BI, and Tableau, to analyze and visualize the collected data. SQL will be used to manage and query the databases containing the mental health and pulse spending data, allowing for efficient data retrieval and aggregation. Python will be employed for data preprocessing, statistical analysis, and the exploration of relationships between variables. Power BI and Tableau will serve as visualization platforms to create interactive dashboards and reports, enabling the effective communication of findings and insights derived from the data. The study's conclusions may offer actionable insights for businesses, policymakers, and emergency response organizations, ultimately contributing to more effective strategies for supporting and rebuilding communities in the aftermath of natural disasters
+This data analytics capstone proposal aims to investigate the relationship between stress and consumer behavior by analyzing data on mental health, pulse spending, and Census records related to COVID-19. The study recognizes that stress can significantly impact individuals' decision-making processes and purchasing habits, particularly in the aftermath of COVID-19. Understanding this influence is crucial for businesses seeking to tailor their marketing strategies and product offerings effectively. The project will leverage various data analysis tools, including Excel, SQL, Python, and Power BI to analyze and visualize the collected data. Python will be used to manage and query the databases containing the mental health and consumer spending data, allowing for efficient data retrieval and aggregationas well as employed for data preprocessing, statistical analysis, and the exploration of relationships between variables, as well as visuals. Power BI  will serve as visualization platforms to create an interactive dashboard and reports, enabling the effective communication of findings and insights derived from the data. 
 
 Data
 
@@ -10,16 +10,10 @@ The following datasets will be used for this project:
 
 - "NEA-AU22-Pandemic-Response-Monthly-PI.xlsx"
 - "Percent_Change_in_Consumer_Spending__2020-2022.csv"
-- "rows.rdf"
 - "Spend - Summary Stats - Category.twbx"
-- "surveillance.rdf"
-- "adult-codebook.pdf"
 - "Copy_of_Quantifying_Sampling_Bias_in_SafeGraph_Spend_Data.ipynb"
-- "COVID-19_Case_Surveillance_Public_Use_Data.csv"
 
-Please ensure that the data files are located in the following directory: "C:\Users\ahask\Documents\DA8\Projects\Capstone\Data\"
-
-Presentation link to Canva:
+Canva Link to Presentation:
 https://www.canva.com/design/DAFlcF16-Dg/4aFJmUIKCCGI9FArNbyazA/view?utm_content=DAFlcF16-Dg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 Timeline
@@ -35,4 +29,4 @@ Timeline
 
 Conclusion
 
-This data analytics project aims to provide actionable insights for businesses, policymakers, and emergency response organizations, contributing to more effective strategies for supporting and rebuilding communities in the aftermath of natural disasters. By analyzing the relationship between stress and consumer buying behavior, we can better understand the impacts of COVID-19 and other stressors on consumer spending patterns.
+This data analytics project aims to provide actionable insights for businesses, contributing to more effective strategies for supporting communities in the aftermath of Covid. By analyzing the relationship between stress and consumer buying behavior, we can better understand the impacts of COVID-19 and other stressors on consumer spending patterns.
